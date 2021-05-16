@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE employees [
+        <!ELEMENT employees (employee*)>
+        <!ELEMENT employee (firstName, lastName, middleName, position, department, workExpirience)>
+        <!ELEMENT firstName (#PCDATA)>
+        <!ELEMENT lastName (#PCDATA)>
+        <!ELEMENT middleName (#PCDATA)>
+        <!ELEMENT position (#PCDATA)>
+        <!ELEMENT department (#PCDATA)>
+        <!ELEMENT workExpirience (#PCDATA)>
+        ]>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:employees="employees.xsd">
+    <employee>
+        <firstName>Alena</firstName>
+        <lastName>Alenovskaya</lastName>
+        <middleName>Alekseevna</middleName>
+        <position>nurse</position>
+        <department>1</department>
+        <workExpirience>3</workExpirience>
+    </employee>
+    <employee>
+        <firstName>Stepan</firstName>
+        <lastName>Stepanovskiy</lastName>
+        <middleName>Stepanovich</middleName>
+        <position>doctor</position>
+        <department>2</department>
+        <workExpirience>1</workExpirience>
+    </employee>
+</employees>
