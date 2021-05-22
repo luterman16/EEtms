@@ -1,4 +1,4 @@
-package java.hw_140521.xmlJSON.JAXB;
+package hw_140521.xmlJSON.JAXB;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
