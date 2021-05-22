@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="employees" >
+        <complexType>
+            <sequence>
+                <element name="employee" minOccurs="0" maxOccurs="unbounded">
+                <complexType>
+                    <sequence>
+                        <element name="firstName" type="string"></element>
+                        <element name="lastName" type="string"></element>
+                        <element name="middleName" type="string"></element>
+                        <element name="position" type="string"></element>
+                        <element name="department" type="decimal"></element>
+                        <element name="workExpirience" type="decimal"></element>
+                    </sequence>
+                </complexType>
+             </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

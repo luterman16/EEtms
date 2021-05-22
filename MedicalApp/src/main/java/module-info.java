@@ -1,0 +1,3 @@
+module MedicalApp {
+    requires BdCRUD;
+}
